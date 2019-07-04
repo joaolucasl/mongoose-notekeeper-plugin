@@ -5,7 +5,20 @@
   "author": "João Lucchetta (Luke) <joao.lucchetta@gmail.com>",
   "license": "LGPL-3.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaolucasl/mongoose-notekeeper-plugin.git"
+  },
+  "keywords": [
+    "mongoose",
+    "history",
+    "plugin",
+    "typescript"
+  ],
   "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "jest"

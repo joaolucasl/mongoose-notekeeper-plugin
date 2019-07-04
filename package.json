@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "Keep track of changes in your documents",
   "author": "João Lucchetta (Luke) <joao.lucchetta@gmail.com>",
-  "license": "GPLv3",
+  "license": "LGPL-3.0",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/mongoose": "^5.5.7",

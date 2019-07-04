@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@types/mongoose": "^5.5.7",
+    "@types/ramda": "^0.26.15",
     "jest": "^24.8.0",
     "mock-mongoose": "^7.4.0-r2",
     "mongodb-memory-server": "^5.1.5",
@@ -21,6 +22,8 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "dayjs": "^1.8.14"
+    "dayjs": "^1.8.14",
+    "rambda": "^2.11.1",
+    "ramda": "^0.26.1"
   }
 }

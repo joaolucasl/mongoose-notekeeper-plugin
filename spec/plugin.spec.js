@@ -44,16 +44,14 @@ describe("Mongoose Notekeeper Plugin", () => {
         type: "Fire"
       });
 
-      expect(charmander.name_history.length).toBe(0);
+      expect(charmander.name_history.length).toBe(1);
 
       charmander.name = "Charmeleon";
       await charmander.save();
 
       const charmeleon = await PokemonModel.findOne({ name: "Charmeleon" });
 
-      expect(charmeleon.name_history.length).toBe(1);
-
-      return expect(pokemon.name_history).toEqual(expect.any(Array));
+      expect(charmeleon.name_history.length).toBe(2);
     });
   });
 
